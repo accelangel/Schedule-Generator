@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/accelangel/Schedule-Generator.git/static/css/main.e6c13ad2.css",
+    "main.js": "/accelangel/Schedule-Generator.git/static/js/main.21abea72.js",
+    "static/js/453.10feee0d.chunk.js": "/accelangel/Schedule-Generator.git/static/js/453.10feee0d.chunk.js",
+    "index.html": "/accelangel/Schedule-Generator.git/index.html",
+    "main.e6c13ad2.css.map": "/accelangel/Schedule-Generator.git/static/css/main.e6c13ad2.css.map",
+    "main.21abea72.js.map": "/accelangel/Schedule-Generator.git/static/js/main.21abea72.js.map",
+    "453.10feee0d.chunk.js.map": "/accelangel/Schedule-Generator.git/static/js/453.10feee0d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.21abea72.js"
+  ]
+}
