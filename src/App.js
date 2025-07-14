@@ -4,7 +4,7 @@ import { RefreshCw, Lock, Unlock, Download, Upload, Plus, Trash2 } from 'lucide-
 const WorkScheduler = () => {
   const days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'];
   const timeSlots = ['2:00-4:30', '4:30-6:00', '6:00-7:30', '7:30-10:30'];
-  const roles = ['Auditing', 'Packing 1', 'Packing 2', 'Shipping'];
+  const roles = ['Auditing', 'Packing1', 'Packing2', 'Shipping'];
   
   // Initialize workers with scores and availability
   const [workers, setWorkers] = useState([
@@ -21,37 +21,37 @@ const WorkScheduler = () => {
     { 
       name: 'Jethro', 
       scores: { auditing: 4, packing: 4, shipping: 4 },
-      availability: { end: '7:30' }
+      availability: { end: '6:00' }
     },
     { 
       name: 'Ruchelle', 
       scores: { auditing: 4, packing: 4, shipping: 4 },
-      availability: { end: '6:00' }
+      availability: { end: '10:30' }
     },
     { 
       name: 'Stephanie', 
       scores: { auditing: 4, packing: 4, shipping: 4 },
-      availability: { end: '10:30' }
+      availability: { end: '7:30' }
     },
     { 
       name: 'Amy', 
       scores: { auditing: 4, packing: 4, shipping: 4 },
-      availability: { end: '7:30' }
+      availability: { end: '10:30' }
     },
     { 
       name: 'Girija', 
       scores: { auditing: 4, packing: 4, shipping: 4 },
-      availability: { end: '10:30' }
+      availability: { end: '4:00' }
     },
     { 
       name: 'Rashi', 
       scores: { auditing: 4, packing: 4, shipping: 4 },
-      availability: { end: '6:00' }
+      availability: { end: '10:30' }
     },
     { 
       name: 'Lucy', 
       scores: { auditing: 4, packing: 4, shipping: 4 },
-      availability: { end: '4:30' }
+      availability: { end: '10:30' }
     },
     { 
       name: 'Mathew', 
@@ -64,7 +64,7 @@ const WorkScheduler = () => {
       availability: { end: '10:30' }
     },
     { 
-      name: 'Hardik', 
+      name: 'Mathew', 
       scores: { auditing: 4, packing: 4, shipping: 4 },
       availability: { end: '10:30' }
     }
