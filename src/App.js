@@ -62,11 +62,6 @@ const WorkScheduler = () => {
       name: 'Hardik', 
       scores: { auditing: 4, packing: 4, shipping: 4 },
       availability: { end: '10:30' }
-    },
-    { 
-      name: 'Mathew', 
-      scores: { auditing: 4, packing: 4, shipping: 4 },
-      availability: { end: '10:30' }
     }
   ]);
 
